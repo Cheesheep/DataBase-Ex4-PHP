@@ -1,0 +1,39 @@
+.add-button{
+    margin-top:15px;
+}
+.add-button form input{
+    padding:2px 12px 2px;
+    background-color:#429ffa;
+    border:1px solid rgb(13, 56, 59);
+    border-radius:6px;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration:none;
+    color:rgb(13, 56, 59);
+    transition-duration:0.6s;
+    cursor: pointer;
+}
+.add-button input:hover{
+    padding:2px 18px 2px;
+}
+#submit-but{
+    font-size: 14px;
+    color:white;
+    cursor:pointer;
+    padding:3px;
+    background-color: rgb(36, 131, 194);
+    transition-duration: 0.4s;
+    border:1.5px solid antiquewhite;
+}
+#submit-but:hover{
+    background-color: rgb(21, 110, 170);
+}
+#cancel-but{
+    font-size: 14px;
+    background-color: rgb(223, 62, 137);
+    transition-duration: 0.4s;
+    border:1.5px solid antiquewhite;
+}
+#cancel-but:hover{
+    background-color: rgb(190, 34, 107);
+}

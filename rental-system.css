@@ -1,0 +1,89 @@
+body{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding:3px;
+    border-radius:3px;
+}
+
+/* 左边导航栏 */
+
+.left-nav{
+    text-align: center;
+    background-color: #f2f4f7;
+    float: left;
+    width: 20%;
+    height: 100%;
+    box-shadow: 1px 0px 2px 1px rgb(175, 172, 172);
+}
+.left-nav li{
+    color:#429ffa;
+}
+.top-logo{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.top-logo i{
+    color: rgb(22, 79, 163);
+}
+.left-nav ul{
+    text-align: left;
+    list-style: none;
+}
+.left-nav li{
+    margin: 20px;
+}
+
+
+/* 上方搜索栏 */
+
+.search-box{
+    float: left;
+    width: 80%;
+}
+.search-box form{
+    padding: 10px;
+}
+.search-box select{
+    border-radius: 5px;
+}
+.search-bar{
+    margin-top: 10px;
+
+}
+.search-txt{
+    border-radius: 10px;
+    border: 0;
+    background-color: #f2f4f7;
+    padding: 3px;
+}
+/* 去掉点击搜索框后加粗的内容 */
+.search-bar input:focus{
+    outline: none;
+}
+.search-btn{
+    border-radius: 5px;
+    border: 1px solid rgb(77, 76, 76);
+}
+
+/* 表格 */
+.table-box{
+    text-align: center;
+    float: left;
+    margin-left: 10px;
+}
+.table-box table{
+    border-collapse:collapse;
+}
+.table-box table tr:nth-child(odd){
+    background-color:#f2f4f7;
+}
+.table-box table tr a{
+    background-color:#429ffa;
+    color:white;
+}
+
+
